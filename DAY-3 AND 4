@@ -1,0 +1,89 @@
+# Day 3 and 4
+# 🛒 E-Commerce Database Management System (SQL Challenges)
+
+## 📌 Project Overview
+This project demonstrates the design and implementation of an **E-Commerce Database** using MySQL.  
+It includes table creation, relationships, constraints, and advanced SQL queries such as joins, aggregation, ranking, and filtering.
+
+---
+
+## 🗄️ Database Name
+`ECommerceDB`
+
+---
+
+## 📂 Tables Included
+
+- 🧑 Customers
+- 📦 Products
+- 🛍 Orders
+- 📑 Order Details
+- 💳 Payments (if applicable)
+
+---
+
+## 🛠️ Features Implemented
+
+- ✅ Create Database
+- ✅ Create Multiple Related Tables
+- ✅ Primary & Foreign Key Constraints
+- ✅ Insert Sample Data
+- ✅ JOIN Operations
+- ✅ Aggregate Functions (SUM, AVG)
+- ✅ GROUP BY & HAVING
+- ✅ Ranking Functions (RANK, DENSE_RANK)
+- ✅ Sales Analysis Queries
+
+---
+
+## 🔗 Entity Relationships
+
+- One Customer → Many Orders
+- One Order → Many Order Details
+- One Product → Many Order Details
+
+---
+
+## 💻 SQL Concepts Used
+
+### 🔹 DDL (Data Definition Language)
+- `CREATE DATABASE`
+- `CREATE TABLE`
+- `ALTER TABLE`
+- `PRIMARY KEY`
+- `FOREIGN KEY`
+
+### 🔹 DML (Data Manipulation Language)
+- `INSERT INTO`
+- `SELECT`
+- `UPDATE`
+- `DELETE`
+
+### 🔹 Advanced Queries
+- `JOIN`
+- `GROUP BY`
+- `HAVING`
+- `ORDER BY`
+- `LIMIT`
+- `RANK() OVER()`
+- `AVG()`, `SUM()`, `COUNT()`
+
+---
+
+## 📊 Sample Business Queries
+
+- Top 3 highest priced products
+- Total sales per product
+- Products with sales greater than ₹100
+- Average sales amount
+- Ranking products by price
+
+---
+
+## 🚀 How to Run
+
+1. Open MySQL Workbench
+2. Execute the SQL script
+3. Use:
+   ```sql
+   USE ECommerceDB;
