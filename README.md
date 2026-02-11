@@ -1,19 +1,51 @@
 # Daily-challenges_sql
 
-# DAY-1
+# 🚀 My SQL Learning & Daily Practice Journey
 
-# Patients Database
+Welcome to my SQL Daily Challenge repository!
 
-## Overview
-This project demonstrates:
-- Database creation
-- Table creation
-- ALTER operations
-- RENAME table
-- INSERT sample data
+I am consistently practicing SQL queries daily to strengthen my database and analytical skills. This repository documents my structured learning journey from basic queries to advanced concepts.
 
-## Tools Used
+---
+
+## 📌 Goals
+- Improve SQL problem-solving skills
+- Master joins, subqueries, aggregations, and window functions
+- Build strong foundation for Data Analyst roles
+- Practice real-world business query scenarios
+
+---
+
+## 🗂 Structure
+
+Each folder represents one day of learning and contains:
+- 📄 questions.sql – Practice questions
+- 📄 solutions.sql – My solutions
+- 📄 README.md – Explanation of concepts learned
+
+---
+
+## 🛠 Tools Used
 - MySQL
+- PostgreSQL
+- Sakila Database
+- Practice datasets
 
-## Author
-Ragavi R
+---
+
+## 📈 Progress Tracker
+
+| Day | Topic | Status |
+|-----|--------|--------|
+| Day 01 | SELECT, WHERE | ✅ Completed |
+| Day 02 | ORDER BY, LIMIT | ✅ Completed |
+| Day 03 | JOINS | 🔄 Ongoing |
+
+---
+
+## 🎯 Target
+Becoming job-ready in SQL for Data Analytics & Business Intelligence roles.
+
+---
+
+⭐ Stay tuned as I update daily!
