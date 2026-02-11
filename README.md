@@ -2,7 +2,7 @@
 
 # DAY-1
 
-# Patients Database Project
+# Patients Database
 
 ## Overview
 This project demonstrates:
