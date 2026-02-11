@@ -1,5 +1,7 @@
 # Daily-challenges_sql
 
+# DAY-1
+
 # Patients Database Project
 
 ## Overview
