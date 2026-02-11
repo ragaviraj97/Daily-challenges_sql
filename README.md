@@ -1,51 +1,54 @@
-# Daily-challenges_sql
+# 💻 100 Days of SQL – My Learning Journey
 
-# 🚀 My SQL Learning & Daily Practice Journey
+Welcome to my SQL learning and practice repository.
 
-Welcome to my SQL Daily Challenge repository!
-
-I am consistently practicing SQL queries daily to strengthen my database and analytical skills. This repository documents my structured learning journey from basic queries to advanced concepts.
+This repository documents my daily SQL challenges, solutions, and concepts learned while strengthening my SQL skills.
 
 ---
 
-## 📌 Goals
-- Improve SQL problem-solving skills
-- Master joins, subqueries, aggregations, and window functions
-- Build strong foundation for Data Analyst roles
-- Practice real-world business query scenarios
+## 🎯 Objective
+
+- Practice SQL daily
+- Strengthen Joins, Subqueries, Aggregations
+- Improve Query Optimization
+- Solve real-world business problems
+- Prepare for Data Analyst interviews
 
 ---
 
 ## 🗂 Structure
 
-Each folder represents one day of learning and contains:
-- 📄 questions.sql – Practice questions
-- 📄 solutions.sql – My solutions
-- 📄 README.md – Explanation of concepts learned
+Each folder contains:
+- 📄 problem.md → Problem statement
+- 🧠 solution.sql → SQL solution
 
 ---
 
 ## 🛠 Tools Used
 - MySQL
 - PostgreSQL
-- Sakila Database
-- Practice datasets
+- SQL Server
+- LeetCode / HackerRank datasets
+- Sample databases (Sakila, Employees, etc.)
 
 ---
 
 ## 📈 Progress Tracker
 
 | Day | Topic | Status |
-|-----|--------|--------|
-| Day 01 | SELECT, WHERE | ✅ Completed |
-| Day 02 | ORDER BY, LIMIT | ✅ Completed |
-| Day 03 | JOINS | 🔄 Ongoing |
+|-----|-------|--------|
+| Day 1 | SELECT & WHERE | ✅ |
+| Day 2 | GROUP BY & HAVING | ✅ |
+| Day 3 | JOINS | ✅ |
+| Day 4 | Subqueries | ⏳ |
 
 ---
 
-## 🎯 Target
-Becoming job-ready in SQL for Data Analytics & Business Intelligence roles.
+## 🔥 Goal
+
+To complete 100 days of consistent SQL practice and build strong problem-solving skills for Data Analytics roles.
 
 ---
 
-⭐ Stay tuned as I update daily!
+### 👩‍💻 Author
+Ragavi R
