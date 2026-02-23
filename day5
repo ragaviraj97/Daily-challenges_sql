@@ -1,0 +1,127 @@
+# 5th Day of  SQL Challenge – Student Enrollment System
+
+Welcome to my *5th Day SQL Challenge** 💻  
+
+This challenges demonstrates core SQL concepts by building and querying a relational **Student Enrollment Database System**.
+
+---
+
+## Day-5 challenges Overview
+
+In this challenge, I created a database named **StudentsDB** with three related tables:
+
+- Students  
+- Courses  
+- Enrollments  
+
+The project covers:
+
+- Database creation  
+- Table relationships (Primary & Foreign Keys)  
+- Data insertion  
+- JOIN operations  
+- Numeric functions  
+- String functions  
+- Date functions  
+- Reporting queries  
+
+---
+
+## 🗂 Database Schema
+
+### 1️⃣ Students
+- StudentID (Primary Key)  
+- StudentName  
+- Age  
+- City  
+
+### 2️⃣ Courses
+- CourseID (Primary Key)  
+- CourseName  
+- Duration  
+
+### 3️⃣ Enrollments
+- EnrollmentID (Primary Key)  
+- StudentID (Foreign Key)  
+- CourseID (Foreign Key)  
+- EnrollmentDate  
+
+---
+## Database & Table Creation
+- Created database `StudentsDB`
+- Designed relational tables
+- Defined primary and foreign keys
+
+##Insert Sample Data
+Inserted sample records into:
+- Students
+- Courses
+- Enrollments
+
+## INNER JOIN
+Fetched students along with their enrolled courses.
+
+## LEFT JOIN & RIGHT JOIN
+- LEFT JOIN → Show all students (including those without enrollments)
+- RIGHT JOIN → Show all courses (including those without enrollments)
+
+## Numeric Functions
+Used:
+- ROUND()
+- ABS()
+- MOD()
+
+## String Functions (Part 1)
+Used:
+- CONCAT()
+- LENGTH()
+
+##String Functions (Part 2)
+Used:
+- REPLACE()
+- SUBSTRING()
+
+## Case Conversion
+Used:
+- UPPER()
+- LOWER()
+
+##Date Functions
+Used:
+- NOW()
+- DATEDIFF()
+- DATE_ADD()
+
+## Combined Enrollment Report
+Built a report displaying:
+- Student ID
+- Enrollment ID
+- Current Date & Time
+- Days Difference
+- Follow-up Date
+
+---
+
+# Skills Demonstrated
+
+- SQL Query Writing  
+- Relational Database Design  
+- JOIN Operations  
+- Data Manipulation  
+- Reporting Queries  
+- Problem Solving  
+
+---
+
+# Learning Outcome
+
+This challenge strengthened my understanding of:
+
+- Relational database concepts  
+- Writing efficient SQL queries  
+- Handling real-world reporting scenarios  
+- Data transformation using built-in SQL functions  
+
+---
+
+If you find this challenges useful, feel free to star the repository!
