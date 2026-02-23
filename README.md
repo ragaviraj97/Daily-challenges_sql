@@ -1,4 +1,4 @@
-# 💻 100 Days of SQL – My Learning Journey
+# 💻 Daily Challenges of SQL – My Learning Journey
 
 Welcome to my SQL learning and practice repository.
 
