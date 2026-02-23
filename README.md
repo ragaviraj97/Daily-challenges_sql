@@ -41,7 +41,7 @@ Each folder contains:
 | Day 2 | GROUP BY & HAVING | ✅ |
 | Day 3 | JOINS | ✅ |
 | Day 4 | Subqueries | ✅ |
-| Day 5 | JOINS & BUILDIN FUNTION ✅ |
+| Day 5 | JOINS & BUILDIN FUNTION | ✅ |
 
 
 ---
