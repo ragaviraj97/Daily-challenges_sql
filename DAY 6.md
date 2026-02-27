@@ -38,6 +38,29 @@ WHERE DeptID IN (
     WHERE l.LocationName IN ('Hyderabad', 'Pune')
 );
 
+2️⃣ Subquery – Above Average Salary
+SELECT EmpName, Salary
+FROM Employees
+WHERE Salary > (SELECT AVG(Salary) FROM Employees);
+
+3️⃣ Multi-row Subquery – Hyderabad & Pune Departments
+SELECT EmpName, DeptID
+FROM Employees
+WHERE DeptID IN (
+    SELECT d.DepartmentID
+    FROM Departments d
+    JOIN Locations l 
+    ON d.LocationID = l.LocationID
+    WHERE l.LocationName IN ('Hyderabad', 'Pune')
+);
+
+4️⃣ Stored Procedure – UpdateSalaryByPerformance()
+
+Rating 5 → 20% raise
+
+Rating 4 → 10% raise
+
+Rating 3 → 5% raise
 
 CREATE PROCEDURE UpdateSalaryByPerformance()
 BEGIN
@@ -52,6 +75,7 @@ BEGIN
 END;
 
 CALL UpdateSalaryByPerformance();
+
 
 🚀 Skills Demonstrated
 
