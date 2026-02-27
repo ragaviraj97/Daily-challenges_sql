@@ -1,19 +1,24 @@
 # 📊 SQL – Stored Procedures, UDF & Subqueries (Company Database)
 
 This project demonstrates advanced SQL concepts using a Company database.
+It focuses on implementing business logic using functions, subqueries, and stored procedures.
+
+---
 
 ## 🔹 Topics Covered
 - User-Defined Function (UDF)
 - Single-row Subquery
 - Multi-row Subquery (IN)
 - Stored Procedure
-- CASE statement
+- CASE Statement
+- Business Rule Implementation
 
 ---
 
-## 1️⃣ UDF – GetBonus()
+## 1️⃣ User-Defined Function – GetBonus()
 
-Calculates 10% annual bonus from employee salary.
+### 📌 Objective
+Calculate 10% annual bonus from employee salary.
 
 ```sql
 CREATE FUNCTION GetBonus(salary DECIMAL(10,2))
@@ -21,47 +26,54 @@ RETURNS DECIMAL(10,2)
 DETERMINISTIC
 RETURN salary * 0.10;
 
-SELECT EmpName, Salary, GetBonus(Salary) AS Annual_Bonus
+SELECT 
+    EmpName, 
+    Salary, 
+    GetBonus(Salary) AS Annual_Bonus
 FROM Employees;
 
-SELECT EmpName, Salary
-FROM Employees
-WHERE Salary > (SELECT AVG(Salary) FROM Employees);
+---
 
-SELECT EmpName, DeptID
+2️⃣ Subquery – Employees Earning Above Average Salary
+📌 Objective
+
+Find employees whose salary is greater than the company’s average salary.
+-- SQL --
+SELECT 
+    EmpName, 
+    Salary
 FROM Employees
-WHERE DeptID IN (
-    SELECT d.DepartmentID
-    FROM Departments d
-    JOIN Locations l 
-    ON d.LocationID = l.LocationID
-    WHERE l.LocationName IN ('Hyderabad', 'Pune')
+WHERE Salary > (
+    SELECT AVG(Salary) 
+    FROM Employees
 );
 
-2️⃣ Subquery – Above Average Salary
-SELECT EmpName, Salary
-FROM Employees
-WHERE Salary > (SELECT AVG(Salary) FROM Employees);
+3️⃣ Multi-row Subquery – Employees in Hyderabad & Pune
+📌 Objective
 
-3️⃣ Multi-row Subquery – Hyderabad & Pune Departments
-SELECT EmpName, DeptID
+Find employees working in departments located in Hyderabad or Pune.
+--SQL --
+SELECT 
+    EmpName, 
+    DeptID
 FROM Employees
 WHERE DeptID IN (
     SELECT d.DepartmentID
     FROM Departments d
     JOIN Locations l 
-    ON d.LocationID = l.LocationID
+        ON d.LocationID = l.LocationID
     WHERE l.LocationName IN ('Hyderabad', 'Pune')
 );
 
 4️⃣ Stored Procedure – UpdateSalaryByPerformance()
+📌 Salary Increment Policy
 
 Rating 5 → 20% raise
 
 Rating 4 → 10% raise
 
 Rating 3 → 5% raise
-
+-- SQL --
 CREATE PROCEDURE UpdateSalaryByPerformance()
 BEGIN
     UPDATE Employees
@@ -75,6 +87,7 @@ BEGIN
 END;
 
 CALL UpdateSalaryByPerformance();
+
 
 
 🚀 Skills Demonstrated
