@@ -1,0 +1,88 @@
+---
+
+# 📊 Data Analysis – My Learning Journey
+
+This repository represents my hands-on practice and learning journey in Data Analysis using SQL.
+
+Throughout this project, I have worked on:
+
+- Writing advanced SQL queries  
+- Implementing CTEs and Window Functions  
+- Using Multi-row and Correlated Subqueries  
+- Applying Aggregate Functions for business insights  
+- Creating and using Stored Procedures  
+- Developing User Defined Functions (UDF)  
+
+## 🎯 Objective
+
+To strengthen my analytical thinking and improve my ability to solve real-world business problems using SQL.
+
+## 🚀 Growth Focus
+
+- Improving query optimization  
+- Writing clean and structured SQL code  
+- Understanding business-driven data analysis  
+- Preparing for Data Analyst job roles  
+
+---
+
+⭐ This project reflects my continuous learning and dedication towards becoming a skilled Data Analyst.
+
+## 🔹 ROW_NUMBER()
+
+- Assigns unique ranking to each row  
+- Used with `OVER (ORDER BY salary DESC)`  
+- Commonly used for Top N queries  
+
+---
+
+## 🔹 CTE (WITH Clause)
+
+- Temporary result set  
+- Improves query readability  
+- Makes complex queries easier to manage  
+- Helps in debugging  
+
+---
+
+## 🔹 ANY Operator
+
+- Used in multi-row subqueries  
+- `> ANY` means greater than the minimum value returned by the subquery  
+- Useful for comparison against multiple values  
+
+---
+
+## 🔹 Correlated Subquery
+
+- Inner query depends on outer query  
+- Executes once per outer row  
+- Commonly used for group-based comparisons (e.g., highest salary per department)  
+
+---
+
+## 🔹 Stored Procedure
+
+- Used to modify data (INSERT, UPDATE, DELETE)  
+- Contains reusable business logic  
+- Improves performance and code organization  
+
+---
+
+## 🔹 Function (UDF – User Defined Function)
+
+- Used inside `SELECT` statements  
+- Returns calculated value  
+- Reusable and simplifies complex calculations  
+
+---
+
+# 🚀 Skills Demonstrated
+
+- Advanced Query Writing  
+- Performance-Based Filtering  
+- Analytical SQL Logic  
+- Business Scenario Implementation  
+- Clean Query Structuring  
+
+
